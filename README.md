@@ -1,6 +1,10 @@
 # memberful-import
 Import users from Memberful exported list to EDD.  There is a sample of the Memberful.json customer list.  The names and emails have been changed to protect the users.
 
+- The memberful.json file goes inside of the plugin folder.
+- To run the script use ?mmt-memberful-import after home url
+- To view a table report of the customer list use  ?mmt-memberful-report after the home url
+- Example of Home URL www.test.com?mmt-memberful-import
 
 This script ( once completed ) will allow EDD users to import customers from Memberful.
 The script is run by adding ?mmt-memberful-import to the site's url.
