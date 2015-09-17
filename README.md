@@ -1,5 +1,5 @@
 # memberful-import
-Import users from Memberful exported list to EDD
+Import users from Memberful exported list to EDD.  There is a sample of the Memberful.json customer list.  The names and emails have been changed to protect the users.
 
 
 This script ( once completed ) will allow EDD users to import customers from Memberful.
