@@ -264,6 +264,7 @@ if ( isset($_GET['mmt-memberful-report']) )
 
 function memberful_report ()
 {
+	if ( !is_user_logged_in() ) return;
 	$now_dt = new DateTime();
 
 	$current_dir = dirname(__FILE__);
