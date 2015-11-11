@@ -6,12 +6,14 @@
 
 if ( isset($_GET['mmt-memberful-import']) )
 {
+	
 	add_action('wp', 'memberful_import');
 }
 
 
 function memberful_import ()
 {
+	if ( !is_user_logged_in() ) return;
 	$now_dt = new DateTime();
 
 	$current_dir = dirname(__FILE__);
